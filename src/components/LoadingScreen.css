@@ -1,0 +1,25 @@
+.loading-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #000; /* Optional: Background color */
+    cursor: pointer; /* Indicate tap functionality */
+  }
+  
+  .loading-logo {
+    width: 80%; /* Adjust size */
+    max-width: 600px; /* Optional: Limit maximum size */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .loading-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
