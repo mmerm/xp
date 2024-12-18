@@ -5,21 +5,21 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #000; /* Optional: Background color */
+    background-color: #000; /* Background color */
     cursor: pointer; /* Indicate tap functionality */
-  }
-  
-  .loading-logo {
-    width: 80%; /* Adjust size */
+}
+
+.loading-logo {
+    width: 80%; /* Adjust size as needed */
     max-width: 600px; /* Optional: Limit maximum size */
     height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .loading-text {
+    margin-bottom: 20px; /* You can remove this if you don't want extra space */
+}
+
+.loading-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
-  }
-  
+    color: #fff; /* White text color */
+    margin-top: 20px; /* Space above the text */
+}
